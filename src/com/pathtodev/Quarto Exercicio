@@ -1,0 +1,18 @@
+public class Main {
+
+    public static void main(String[] args) {
+        //4 - Exercício: Crie um programa que verifique se um número informado é par ou ímpar.
+        System.out.println("Programa que informa se o numero é par ou impar");
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite um numero para saber se é par ou impar");
+        int numero = entrada.nextInt();
+        System.out.println("O numero digitado foi " + numero);
+        int parImpar = numero % 2;
+        if (parImpar == 0) {
+            System.out.println("O numero é par");
+        } else {
+            System.out.println("O numero é impar");
+        }
+
+    }
+}
