@@ -1,0 +1,22 @@
+public class Main {
+
+    public static void main(String[] args) {
+        // 6- Exercício – Lista de convidados: Elabore um algoritmo que armazene em um vetor o nome de 5 convidados
+//        // de uma festa e exiba o nome dos mesmos. (Neste exercício não é obrigado a utilizar laço de repetição.)
+        System.out.println("Ola, digite o nome dos 5 convidados");
+        String[] nomeConvidado = new String[5];
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ola, digite o nome dos 1° convidado");
+        nomeConvidado[0] = entrada.nextLine();
+        System.out.println("Ola, digite o nome dos 2° convidado");
+        nomeConvidado[1] = entrada.nextLine();
+        System.out.println("Ola, digite o nome dos 3° convidado");
+        nomeConvidado[2] = entrada.nextLine();
+        System.out.println("Ola, digite o nome dos 4° convidado");
+        nomeConvidado[3] = entrada.nextLine();
+        System.out.println("Ola, digite o nome dos 5° convidado");
+        nomeConvidado[4] = entrada.nextLine();
+        System.out.println("Os convidados são: " + nomeConvidado[0] + " " + nomeConvidado[1] + " " + nomeConvidado[2] + " " +
+                nomeConvidado[3] + " " + nomeConvidado[4]);
+    }
+}
