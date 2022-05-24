@@ -1,0 +1,29 @@
+public class Main {
+
+    public static void main(String[] args) {
+        // 5 Exercício: Crie um programa que calcule a média de um aluno para a matéria de matemática.
+//        //    O programa também deverá informar se o aluno foi aprovado ou não na matéria.
+//        // A média mínima para aprovação é 6. O aluno deve informar seu nome e as quatro notas da matéria.
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Olá, digite seu nome!");
+        String nome = entrada.nextLine();
+        System.out.println("Olá " + nome + ", digite a seguir as quatro notas da matéria. ");
+        System.out.println("Digite a primeira nota");
+        double nota1 = entrada.nextDouble();
+        System.out.println("Digite o valor da segunda nota");
+        double nota2 = entrada.nextDouble();
+        System.out.println("Digite o valor da terceira nota");
+        double nota3 = entrada.nextDouble();
+        System.out.println("Digite o valor da quarta nota");
+        double nota4 = entrada.nextDouble();
+
+        double soma = (nota1 + nota2 + nota3 + nota4);
+        double media = soma / 4;
+        System.out.println("O somatorio de suas notas é de " + soma + " e a média é de " + media);
+        if (media >= 6) {
+            System.out.println("Parabens " + nome + " Voce esta aprovado(a)");
+        } else {
+            System.out.println("Sua média foi menor que 6 " + nome + ",infelizmente você está reprovado(a)");
+        }
+    }
+}
