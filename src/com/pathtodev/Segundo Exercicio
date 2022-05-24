@@ -1,0 +1,21 @@
+      // 2 - Exercício: Crie um programa que exiba a tabuada de um número informado pelo usuário.
+
+        public class Main {
+
+         public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Bem vindo ao programa que mostra a tabuada");
+        System.out.println("Digite o numero da tabuada que gostaria de saber ");
+        int numero = entrada.nextInt();
+        System.out.println("A tabuada do numero " + numero + " é: ");
+        System.out.println(numero + " X1= " + (numero * 1));
+        System.out.println(numero + " X2= " + (numero * 2));
+        System.out.println(numero + " X3= " + (numero * 3));
+        System.out.println(numero + " X4= " + (numero * 4));
+        System.out.println(numero + " X5= " + (numero * 5));
+        System.out.println(numero + " X6= " + (numero * 6));
+        System.out.println(numero + " X7= " + (numero * 7));
+        System.out.println(numero + " X8= " + (numero * 8));
+        System.out.println(numero + " X9= " + (numero * 9));
+        }
+        }
